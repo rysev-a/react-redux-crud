@@ -1,0 +1,23 @@
+{
+  "name": "react-redux-crud",
+  "version": "0.0.1",
+  "description": "React redux CRUD tool",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel es --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "npm run build"    
+  },
+  "keywords": [
+    "React",
+    "Redux",
+    "CRUD"
+  ],
+  "module": "es/index.js",
+  "author": "Rysev Alexey",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13"
+  }
+}
